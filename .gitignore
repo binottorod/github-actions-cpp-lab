@@ -1,0 +1,78 @@
+# Build directories
+/build/
+/build-*/
+/out/
+/bin/
+/obj/
+/Debug/
+/Release/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeScripts/
+/Testing/
+
+# CMake generated files
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+CTestCostData.txt
+*.cmake
+
+# Compiled objects and binaries
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+*.exp
+*.exe
+*.out
+*.app
+
+# Static and dynamic libraries
+*.lo
+*.la
+*.lai
+*.pc
+
+# Core dumps and profiling
+core
+core.*
+*.core
+*.gcda
+*.gcno
+*.gcov
+
+# IDE / editor files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+*.user
+*.suo
+*.ncb
+*.aps
+*.pdb
+*.ilk
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test / coverage outputs
+coverage/
+coverage.info
+*.lcov
+
+# Local environment files
+.env
+.env.*
